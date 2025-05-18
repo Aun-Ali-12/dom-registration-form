@@ -1,0 +1,39 @@
+*{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 68, 255);
+    width: fit-content;
+    height: 30rem;
+    padding: 1.5rem;
+    justify-content: space-around;
+}
+#form>div>label{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 10rem;
+    color: black;
+}
+#form>div>button{
+    background-color: rgb(0, 68, 255);
+    width: 5rem;
+    height: 2.1rem;
+    border: 0.15rem solid;
+    border-radius: 0.5rem;
+}
+#form>div>button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 0.15rem solid;
+    border-radius: 0.5rem;
+    color: rgb(0, 68, 255);
+}
+#card-div{
+    display: flex;
+    justify-content: space-between;
+}
