@@ -51,41 +51,41 @@ card.style.backgroundColor = "rgb(0, 68, 255)"
 card.style.width = "fit-content"
 card.style.height = "fit-content"
 card.style.padding = "1.5rem"
-card.style.border = "0.15rem"
-card.style.borderRadius = "1rem"
-card.innerText = stdName.join(" ")
-//second card
-card1.style.backgroundColor = "rgb(0, 68, 255)"
-card1.style.width = "fit-content"
-card1.style.height = "fit-content"
-card1.style.padding = "1.5rem"
-card1.style.border = "0.15rem"
-card1.style.borderRadius = "1rem"
-card1.innerText = fatherName.join(" ")
-//third card
-card2.style.backgroundColor = "rgb(0, 68, 255)"
-card2.style.width = "fit-content"
-card2.style.height = "fit-content"
-card2.style.padding = "1.5rem"
-card2.style.border = "0.15rem"
-card2.style.borderRadius = "1rem"
-card2.innerText = dob
-//fourth card
-card3.style.backgroundColor = "rgb(0, 68, 255)"
-card3.style.width = "fit-content"
-card3.style.height = "fit-content"
-card3.style.padding = "1.5rem"
-card3.style.border = "0.15rem"
-card3.style.borderRadius = "1rem"
-card3.innerText = cnic
-//fifth card
-card4.style.backgroundColor = "rgb(0, 68, 255)"
-card4.style.width = "fit-content"
-card4.style.height = "fit-content"
-card4.style.padding = "1.5rem"
-card4.style.border = "0.15rem"
-card4.style.borderRadius = "1rem"
-card4.innerText = stdEdu.join(" ")
+card.innerText = `Student name: ${stdName.join(" ")}\n\n  FatherName: ${fatherName.join(" ")}\n\n  Date of birth: ${dob}\n\n  Cnic/B.form: ${cnic}\n\n  Education: ${stdEdu.join(" ")} `
+
+
+// //second card
+// card1.style.backgroundColor = "rgb(0, 68, 255)"
+// card1.style.width = "fit-content"
+// card1.style.height = "fit-content"
+// card1.style.padding = "1.5rem"
+// card1.style.border = "0.15rem"
+// card1.style.borderRadius = "1rem"
+// card1.innerText = fatherName.join(" ")
+// //third card
+// card2.style.backgroundColor = "rgb(0, 68, 255)"
+// card2.style.width = "fit-content"
+// card2.style.height = "fit-content"
+// card2.style.padding = "1.5rem"
+// card2.style.border = "0.15rem"
+// card2.style.borderRadius = "1rem"
+// card2.innerText = dob
+// //fourth card
+// card3.style.backgroundColor = "rgb(0, 68, 255)"
+// card3.style.width = "fit-content"
+// card3.style.height = "fit-content"
+// card3.style.padding = "1.5rem"
+// card3.style.border = "0.15rem"
+// card3.style.borderRadius = "1rem"
+// card3.innerText = cnic
+// //fifth card
+// card4.style.backgroundColor = "rgb(0, 68, 255)"
+// card4.style.width = "fit-content"
+// card4.style.height = "fit-content"
+// card4.style.padding = "1.5rem"
+// card4.style.border = "0.15rem"
+// card4.style.borderRadius = "1rem"
+// card4.innerText = stdEdu.join(" ")
 }
 
 //main card
